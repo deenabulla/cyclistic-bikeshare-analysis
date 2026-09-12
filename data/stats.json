@@ -1,0 +1,22 @@
+{
+  "raw_rows": 5860568,
+  "clean_rows": 5852249,
+  "removed": {
+    "dup": 0,
+    "bad_dur": 8319,
+    "bad_coord": 0,
+    "null_id": 0
+  },
+  "counts": {
+    "casual": 2145244,
+    "member": 3707005
+  },
+  "mean_dur": {
+    "casual": 20.92609193240956,
+    "member": 12.195020627546137
+  },
+  "median_dur_approx": {
+    "casual": 12.5,
+    "member": 7.5
+  }
+}
