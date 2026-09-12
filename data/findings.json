@@ -1,0 +1,145 @@
+{
+  "total_rides": 5852249,
+  "share": {
+    "casual": 36.7,
+    "member": 63.3
+  },
+  "mean_dur": {
+    "casual": 20.9,
+    "member": 12.2
+  },
+  "median_dur": {
+    "casual": 12.5,
+    "member": 7.5
+  },
+  "weekend_share": {
+    "casual": 37.9,
+    "member": 24.2
+  },
+  "peak_month": {
+    "casual": "2024-09",
+    "member": "2024-09"
+  },
+  "peak_dow": {
+    "casual": "Saturday",
+    "member": "Wednesday"
+  },
+  "peak_hour": {
+    "casual": 17,
+    "member": 17
+  },
+  "top_stations": {
+    "casual": [
+      [
+        "Streeter Dr & Grand Ave",
+        50903
+      ],
+      [
+        "DuSable Lake Shore Dr & Monroe St",
+        33964
+      ],
+      [
+        "Michigan Ave & Oak St",
+        25005
+      ],
+      [
+        "DuSable Lake Shore Dr & North Blvd",
+        22896
+      ],
+      [
+        "Millennium Park",
+        22485
+      ]
+    ],
+    "member": [
+      [
+        "Kingsbury St & Kinzie St",
+        28826
+      ],
+      [
+        "Clinton St & Washington Blvd",
+        27729
+      ],
+      [
+        "Clark St & Elm St",
+        24554
+      ],
+      [
+        "Clinton St & Madison St",
+        24463
+      ],
+      [
+        "Wells St & Concord Ln",
+        20452
+      ]
+    ]
+  },
+  "top_routes": {
+    "casual": [
+      [
+        "Streeter Dr & Grand Ave \u2192 Streeter Dr & Grand Ave",
+        8871
+      ],
+      [
+        "DuSable Lake Shore Dr & Monroe St \u2192 DuSable Lake Shore Dr & Monroe St",
+        7161
+      ],
+      [
+        "DuSable Lake Shore Dr & Monroe St \u2192 Streeter Dr & Grand Ave",
+        5265
+      ],
+      [
+        "Michigan Ave & Oak St \u2192 Michigan Ave & Oak St",
+        4460
+      ],
+      [
+        "Millennium Park \u2192 Millennium Park",
+        3185
+      ]
+    ],
+    "member": [
+      [
+        "State St & 33rd St \u2192 Calumet Ave & 33rd St",
+        5585
+      ],
+      [
+        "Calumet Ave & 33rd St \u2192 State St & 33rd St",
+        5504
+      ],
+      [
+        "Ellis Ave & 60th St \u2192 Ellis Ave & 55th St",
+        3718
+      ],
+      [
+        "University Ave & 57th St \u2192 Ellis Ave & 60th St",
+        3674
+      ],
+      [
+        "Ellis Ave & 60th St \u2192 University Ave & 57th St",
+        3603
+      ]
+    ]
+  },
+  "bike_type": {
+    "casual": {
+      "electric_bike": 1091251,
+      "classic_bike": 968778,
+      "electric_scooter": 85215
+    },
+    "member": {
+      "classic_bike": 1759184,
+      "electric_bike": 1888699,
+      "electric_scooter": 59122
+    }
+  },
+  "cleaning": {
+    "raw_rows": 5860568,
+    "clean_rows": 5852249,
+    "removed": {
+      "dup": 0,
+      "bad_dur": 8319,
+      "bad_coord": 0,
+      "null_id": 0
+    }
+  }
+}
